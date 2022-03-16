@@ -33,8 +33,6 @@ def draw_aiguilles(win, number, list_ct):
         x2 = x1 + SPACING_LINES * math.cos(alpha)
         y2 = y1 + SPACING_LINES * math.sin(alpha)
 
-        #print((x1, y1), (x2, y2), math.sqrt((x2-x1)**2+(y2-y1)**2))
-        print(x1, x2)
         if (x1<100 and x2>=100) or (x2<100 and x1>=100):
             pygame.draw.line(win, GREEN, (x1, y1), (x2, y2), 2)
             list_ct[0]+=1
