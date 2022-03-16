@@ -4,7 +4,7 @@ Buffon's needle simulator
 Make sure to have pygame module installed
 
 Controls :
-- ESPACE : throw needles
+- SPACEBAR : throw needles
 - C : clear needles 
 - B : display pi approximation in black
 - N : changer number of needles threw to 10 000
